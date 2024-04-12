@@ -1,0 +1,12 @@
+/* Minimal styling; customize as needed */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+video {
+    width: 80%;
+    max-width: 800px;
+}

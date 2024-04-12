@@ -1,0 +1,13 @@
+{
+  "name": "video-cache-app",
+  "version": "1.0.0",
+  "description": "A simple video caching app using Workbox",
+  "scripts": {
+    "start": "http-server -c-1",
+    "sw": "workbox generateSW workbox-config.js"
+  },
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "workbox-cli": "^6.1.5"
+  }
+}
